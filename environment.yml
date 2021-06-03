@@ -1,0 +1,16 @@
+name: D4_accessibility
+
+channels:
+  - esri
+  - conda-forge
+
+dependencies:
+  - esri::arcgis
+  - cookiecutter
+  - jupyterlab
+  - nodejs
+  - pip
+  - python=3.7
+  - python-dotenv
+  - pip:
+    - boto3
