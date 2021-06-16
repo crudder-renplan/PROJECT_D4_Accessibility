@@ -8,6 +8,7 @@ from arcgis.gis import GIS, Group
 from arcgis.env import active_gis
 from dotenv import find_dotenv, load_dotenv
 
+
 # see if arcpy available to accommodate non-windows environments
 if importlib.util.find_spec('arcpy') is not None:
     import arcpy
@@ -172,6 +173,7 @@ class Paths:
     dir_raw = dir_data / 'raw'
     dir_ext = dir_data / 'external'
     dir_int = dir_data / 'interim'
+    interim_gdb = dir_int / "interim.gdb"
     dir_out = dir_data / 'processed'
 
     dir_reports = dir_prj / 'reports'
