@@ -25,10 +25,9 @@
 
 SETLOCAL
 SET PROJECT_DIR=%cd%
-SET PROJECT_NAME=D4_accessibility
-SET SUPPORT_LIBRARY = D4_accessibility
-SET ENV_NAME=D4_accessibility
-SET DEV_ENV_NAME=D4_accessibility_dev
+SET PROJECT_NAME=d4_accessibility
+SET SUPPORT_LIBRARY = d4_accessibility
+SET ENV_NAME=d4_accessibility
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 :: COMMANDS                                                                     :
@@ -46,7 +45,7 @@ GOTO %1
     )
     EXIT /B
 
-:: Perform data preprocessing steps contained in the make_data.py script.
+:: Perform data download steps contained in the get_data.py script.
 :add_data
     ENDLOCAL & (
         CALL activate "%ENV_NAME%"
@@ -65,9 +64,11 @@ GOTO %1
 :: Build the local environment from the environment file
 :env
     ENDLOCAL & (
+        :: Ensure mamba installed in root env
+        CALL conda install mamba -c conda-forge -y
 
         :: Create new environment from environment file
-        CALL conda env create -f environment.yml
+        CALL mamba env create -f environment.yml
 
         :: Install the local package in development (experimental) mode
         CALL python -m pip install -e .
@@ -78,31 +79,11 @@ GOTO %1
     )
     EXIT /B
 
-:: Build the local environment from the environment file
-:env_dev
-    ENDLOCAL & (
-
-        :: Create new environment from environment file
-        CALL conda env create -f environment_dev.yml
-
-        :: Install the local package in development (experimental) mode
-        CALL python -m pip install -e .
-
-        :: Activate the enironment so you can get to work
-        CALL activate "%DEV_ENV_NAME%"
-
-    )
-    EXIT /B
-
 :: Activate the environment
 :env_activate
     ENDLOCAL & CALL activate "%ENV_NAME%"
     EXIT /B
 
-:: Activate the dev environment
-:dev_env_activate
-    ENDLOCAL & CALL activate "%DEV_ENV_NAME%"
-    EXIT /B
 
 :: Remove the environment
 :env_remove
@@ -112,13 +93,6 @@ GOTO %1
 	)
 	EXIT /B
 
-:: Remove the environment
-:dev_env_remove
-	ENDLOCAL & (
-		CALL conda deactivate
-		CALL conda env remove --name "%DEV_ENV_NAME%" -y
-	)
-	EXIT /B
 
 :: Make the package for uploading
 :build

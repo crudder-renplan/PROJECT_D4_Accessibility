@@ -1,0 +1,21 @@
+# project level data configuration/settings
+project: Deseret
+
+registry:
+  path: "C:\\github\\projects\\PROJECT_D4_Accessibility\\data\\data_registry.xlsx"
+
+sharepoint:
+  url: "https://appriver3651006727.sharepoint.com/"
+  project_url: "" # fil
+  relative_url: "Shared Documents/"
+  local: "C:\\OneDrive_RP\\OneDrive - Renaissance Planning Group\\"
+  local_dirs:
+      - "OCSectorPlan2020\\Analysis_Modeling\\PlaceType"
+
+onedrive:
+  local: "C:\\OneDrive_RP\\OneDrive - Renaissance Planning Group"
+  project: "SHARE\\D4_Accessibility\\"
+  inputs:
+    - "folder_1"
+    - "folder_2"
+    - "folder_n"

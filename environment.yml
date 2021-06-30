@@ -1,4 +1,4 @@
-name: D4_accessibility
+name: d4_accessibility
 
 channels:
   - esri
@@ -12,5 +12,19 @@ dependencies:
   - pip
   - python=3.7
   - python-dotenv
+  - geopandas
+  - pandas
+  - rasterio
+  - appdirs
+  - yaml
+  - scipy
+  - pyyaml
+  - tqdm
+  - osmnx
+  - openpyxl
   - pip:
     - boto3
+    - -e ../../packages/emma
+    - -e ../../packages/rpio
+    - -e ../../packages/algi
+    - -e ../../packages/rputils

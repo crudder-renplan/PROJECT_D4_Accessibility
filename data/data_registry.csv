@@ -1,0 +1,161 @@
+﻿Source,Scenario,Year,Method,Extent,Scale,Scope,Field,Description,Phase,Status,TableType,FileType,Store,Path
+FLSWM,Base,2018,NA,FL,SWTAZ,NA,FF_time,Highway Freeflow times,RAW,Ready,long,csv,Accessibility folder,\skims\FLSWM_2018_hwy_skim.csv
+FLSWM,Base,2018,NA,FL,SWTAZ,NA,CG_time,Highway Congested times,RAW,Ready,long,csv,Accessibility folder,\skims\FLSWM_2018_hwy_skim.csv
+FLSWM,Base,2018,NA,FL,SWTAZ,NA,"Impedance=""FF_time""",Highway Freeflow times,INTERIM,Ready,OD,H5,Accessibility folder,\h5\FLSWM_auto_only_15.h5
+FLSWM,Base,2018,NA,FL,SWTAZ,NA,"Impedance=""CG_time""",Highway Congested times,INTERIM,Ready,OD,H5,Accessibility folder,\h5\FLSWM_auto_only_15.h5
+FLSWM,Future,2045,NA,FL,SWTAZ,NA,FF_time,Highway Freeflow times,RAW,Ready,long,csv,Accessibility folder,\skims\FLSWM_2045_hwy_skim.csv
+FLSWM,Future,2045,NA,FL,SWTAZ,NA,CG_time,Highway Congested times,RAW,Ready,long,csv,Accessibility folder,\skims\FLSWM_2045_hwy_skim.csv
+FLSWM,Future,2045,NA,FL,SWTAZ,NA,"Impedance=""FF_time""",Highway Freeflow times,INTERIM,Ready,OD,H5,Accessibility folder,\h5\FLSWM_auto_only_45.h5
+FLSWM,Future,2045,NA,FL,SWTAZ,NA,"Impedance=""CG_time""",Highway Congested times,INTERIM,Ready,OD,H5,Accessibility folder,\h5\FLSWM_auto_only_45.h5
+FLSWM,Base,2018,M1,FL,SWTAZ,Regional,EMP_Max_15_FF ,"Free Flow Access to Jobs, 15 minute travel time",PROD,Done,wide,csv,Accessibility folder,\Access_Scores\FLSWM_FF_18_TTT_15_30_60.csv
+FLSWM,Base,2018,M1,FL,SWTAZ,Regional,EMP_Max_30_FF ,"Free Flow Access to Jobs, 30 minute travel time",PROD,Done,wide,csv,Accessibility folder,\Access_Scores\FLSWM_FF_18_TTT_15_30_60.csv
+FLSWM,Base,2018,M1,FL,SWTAZ,Regional,EMP_Max_60_FF,"Free Flow Access to Jobs, 60 minute travel time",PROD,Done,wide,csv,Accessibility folder,\Access_Scores\FLSWM_FF_18_TTT_15_30_60.csv
+FLSWM,Base,2018,M1,FL,SWTAZ,Regional,EMP_15_to_30_FF ,"Free Flow Access to Jobs, 15 to 30 minute travel time",PROD,Done,wide,csv,Accessibility folder,\Access_Scores\FLSWM_FF_18_TTT_15_30_60.csv
+FLSWM,Base,2018,M1,FL,SWTAZ,Regional,EMP_30_to_60_FF,"Free Flow Access to Jobs, 30 to 60 minute travel time",PROD,Done,wide,csv,Accessibility folder,\Access_Scores\FLSWM_FF_18_TTT_15_30_60.csv
+FLSWM,Base,2018,M1,FL,SWTAZ,Regional,EMP_Max_15_CG ,"Congested Access to Jobs, 15 minute travel time",PROD,Done,wide,csv,Accessibility folder,\Access_Scores\FLSWM_FF_18_TTT_15_30_60.csv
+FLSWM,Base,2018,M1,FL,SWTAZ,Regional,EMP_Max_30_CG ,"Congested Access to Jobs, 30 minute travel time",PROD,Done,wide,csv,Accessibility folder,\Access_Scores\FLSWM_FF_18_TTT_15_30_60.csv
+FLSWM,Base,2018,M1,FL,SWTAZ,Regional,EMP_Max_60_CG,"Congested Access to Jobs, 60 minute travel time",PROD,Done,wide,csv,Accessibility folder,\Access_Scores\FLSWM_FF_18_TTT_15_30_60.csv
+FLSWM,Base,2018,M1,FL,SWTAZ,Regional,EMP_15_to_30_CG ,"Congested Access to Jobs, 15 to 30 minute travel time",PROD,Done,wide,csv,Accessibility folder,\Access_Scores\FLSWM_FF_18_TTT_15_30_60.csv
+FLSWM,Base,2018,M1,FL,SWTAZ,Regional,EMP_30_to_60_CG,"Congested Access to Jobs, 30 to 60 minute travel time",PROD,Done,wide,csv,Accessibility folder,\Access_Scores\FLSWM_FF_18_TTT_15_30_60.csv
+FLSWM,Base,2018,M1,FL,SWTAZ,Regional,DU_Max_15_FF ,"Free Flow Access to Dwelling Units, 15 minute travel time",PROD,Done,wide,csv,Accessibility folder,\Access_Scores\FLSWM_FF_18_TTT_15_30_60.csv
+FLSWM,Base,2018,M1,FL,SWTAZ,Regional,DU_Max_30_FF ,"Free Flow Access to  Dwelling Units, 30 minute travel time",PROD,Done,wide,csv,Accessibility folder,\Access_Scores\FLSWM_FF_18_TTT_15_30_60.csv
+FLSWM,Base,2018,M1,FL,SWTAZ,Regional,DU_Max_60_FF,"Free Flow Access to  Dwelling Units, 60 minute travel time",PROD,Done,wide,csv,Accessibility folder,\Access_Scores\FLSWM_FF_18_TTT_15_30_60.csv
+FLSWM,Base,2018,M1,FL,SWTAZ,Regional,DU_15_to_30_FF ,"Free Flow Access to  Dwelling Units, 15 to 30 minute travel time",PROD,Done,wide,csv,Accessibility folder,\Access_Scores\FLSWM_FF_18_TTT_15_30_60.csv
+FLSWM,Base,2018,M1,FL,SWTAZ,Regional,DU_30_to_60_FF                   ,"Free Flow Access to  Dwelling Units, 30 to 60 minute travel time",PROD,Done,wide,csv,Accessibility folder,\Access_Scores\FLSWM_FF_18_TTT_15_30_60.csv
+FLSWM,Base,2018,M1,FL,SWTAZ,Regional,DU_Max_15_CG ,"Congested Access to  Dwelling Units, 15 minute travel time",PROD,Done,wide,csv,Accessibility folder,\Access_Scores\FLSWM_FF_18_TTT_15_30_60.csv
+FLSWM,Base,2018,M1,FL,SWTAZ,Regional,DU_Max_30_CG ,"Congested Access to  Dwelling Units, 30 minute travel time",PROD,Done,wide,csv,Accessibility folder,\Access_Scores\FLSWM_FF_18_TTT_15_30_60.csv
+FLSWM,Base,2018,M1,FL,SWTAZ,Regional,DU_Max_60_CG,"Congested Access to  Dwelling Units, 60 minute travel time",PROD,Done,wide,csv,Accessibility folder,\Access_Scores\FLSWM_FF_18_TTT_15_30_60.csv
+FLSWM,Base,2018,M1,FL,SWTAZ,Regional,DU_15_to_30_CG ,"Congested Access to  Dwelling Units, 15 to 30 minute travel time",PROD,Done,wide,csv,Accessibility folder,\Access_Scores\FLSWM_FF_18_TTT_15_30_60.csv
+FLSWM,Base,2018,M1,FL,SWTAZ,Regional,DU_30_to_60_CG,"Congested Access to  Dwelling Units, 30 to 60 minute travel time",PROD,Done,wide,csv,Accessibility folder,\Access_Scores\FLSWM_FF_18_TTT_15_30_60.csv
+FLSWM,Future,2045,M1,FL,SWTAZ,Regional,EMP_Max_15_FF ,"Free Flow Access to Jobs, 15 minute travel time",PROD,Done,wide,csv,Accessibility folder,\Access_Scores\FLSWM_FF_45_TTT_15_30_60.csv
+FLSWM,Future,2045,M1,FL,SWTAZ,Regional,EMP_Max_30_FF ,"Free Flow Access to Jobs, 30 minute travel time",PROD,Done,wide,csv,Accessibility folder,\Access_Scores\FLSWM_FF_45_TTT_15_30_60.csv
+FLSWM,Future,2045,M1,FL,SWTAZ,Regional,EMP_Max_60_FF,"Free Flow Access to Jobs, 60 minute travel time",PROD,Done,wide,csv,Accessibility folder,\Access_Scores\FLSWM_FF_45_TTT_15_30_60.csv
+FLSWM,Future,2045,M1,FL,SWTAZ,Regional,EMP_15_to_30_FF ,"Free Flow Access to Jobs, 15 to 30 minute travel time",PROD,Done,wide,csv,Accessibility folder,\Access_Scores\FLSWM_FF_45_TTT_15_30_60.csv
+FLSWM,Future,2045,M1,FL,SWTAZ,Regional,EMP_30_to_60_FF,"Free Flow Access to Jobs, 30 to 60 minute travel time",PROD,Done,wide,csv,Accessibility folder,\Access_Scores\FLSWM_FF_45_TTT_15_30_60.csv
+FLSWM,Future,2045,M1,FL,SWTAZ,Regional,EMP_Max_15_CG ,"Congested Access to Jobs, 15 minute travel time",PROD,Done,wide,csv,Accessibility folder,\Access_Scores\FLSWM_FF_45_TTT_15_30_60.csv
+FLSWM,Future,2045,M1,FL,SWTAZ,Regional,EMP_Max_30_CG ,"Congested Access to Jobs, 30 minute travel time",PROD,Done,wide,csv,Accessibility folder,\Access_Scores\FLSWM_FF_45_TTT_15_30_60.csv
+FLSWM,Future,2045,M1,FL,SWTAZ,Regional,EMP_Max_60_CG,"Congested Access to Jobs, 60 minute travel time",PROD,Done,wide,csv,Accessibility folder,\Access_Scores\FLSWM_FF_45_TTT_15_30_60.csv
+FLSWM,Future,2045,M1,FL,SWTAZ,Regional,EMP_15_to_30_CG ,"Congested Access to Jobs, 15 to 30 minute travel time",PROD,Done,wide,csv,Accessibility folder,\Access_Scores\FLSWM_FF_45_TTT_15_30_60.csv
+FLSWM,Future,2045,M1,FL,SWTAZ,Regional,EMP_30_to_60_CG,"Congested Access to Jobs, 30 to 60 minute travel time",PROD,Done,wide,csv,Accessibility folder,\Access_Scores\FLSWM_FF_45_TTT_15_30_60.csv
+FLSWM,Future,2045,M1,FL,SWTAZ,Regional,DU_Max_15_FF ,"Free Flow Access to Dwelling Units, 15 minute travel time",PROD,Done,wide,csv,Accessibility folder,\Access_Scores\FLSWM_FF_45_TTT_15_30_60.csv
+FLSWM,Future,2045,M1,FL,SWTAZ,Regional,DU_Max_30_FF ,"Free Flow Access to  Dwelling Units, 30 minute travel time",PROD,Done,wide,csv,Accessibility folder,\Access_Scores\FLSWM_FF_45_TTT_15_30_60.csv
+FLSWM,Future,2045,M1,FL,SWTAZ,Regional,DU_Max_60_FF,"Free Flow Access to  Dwelling Units, 60 minute travel time",PROD,Done,wide,csv,Accessibility folder,\Access_Scores\FLSWM_FF_45_TTT_15_30_60.csv
+FLSWM,Future,2045,M1,FL,SWTAZ,Regional,DU_15_to_30_FF ,"Free Flow Access to  Dwelling Units, 15 to 30 minute travel time",PROD,Done,wide,csv,Accessibility folder,\Access_Scores\FLSWM_FF_45_TTT_15_30_60.csv
+FLSWM,Future,2045,M1,FL,SWTAZ,Regional,DU_30_to_60_FF                   ,"Free Flow Access to  Dwelling Units, 30 to 60 minute travel time",PROD,Done,wide,csv,Accessibility folder,\Access_Scores\FLSWM_FF_45_TTT_15_30_60.csv
+FLSWM,Future,2045,M1,FL,SWTAZ,Regional,DU_Max_15_CG ,"Congested Access to  Dwelling Units, 15 minute travel time",PROD,Done,wide,csv,Accessibility folder,\Access_Scores\FLSWM_FF_45_TTT_15_30_60.csv
+FLSWM,Future,2045,M1,FL,SWTAZ,Regional,DU_Max_30_CG ,"Congested Access to  Dwelling Units, 30 minute travel time",PROD,Done,wide,csv,Accessibility folder,\Access_Scores\FLSWM_FF_45_TTT_15_30_60.csv
+FLSWM,Future,2045,M1,FL,SWTAZ,Regional,DU_Max_60_CG,"Congested Access to  Dwelling Units, 60 minute travel time",PROD,Done,wide,csv,Accessibility folder,\Access_Scores\FLSWM_FF_45_TTT_15_30_60.csv
+FLSWM,Future,2045,M1,FL,SWTAZ,Regional,DU_15_to_30_CG ,"Congested Access to  Dwelling Units, 15 to 30 minute travel time",PROD,Done,wide,csv,Accessibility folder,\Access_Scores\FLSWM_FF_45_TTT_15_30_60.csv
+FLSWM,Future,2045,M1,FL,SWTAZ,Regional,DU_30_to_60_CG,"Congested Access to  Dwelling Units, 30 to 60 minute travel time",PROD,Done,wide,csv,Accessibility folder,\Access_Scores\FLSWM_FF_45_TTT_15_30_60.csv
+FLSWM,Base,2018,M2,FL,SWTAZ,Regional,EMP_Unconstrained_FF,"Free Flow Decayed Access to Jobs, Unconstrained",PROD,Done,wide,csv,Accessibility folder,\Access_Scores\FLSWM_FF_18_TTD_Un_15_30_60.csv
+FLSWM,Base,2018,M2,FL,SWTAZ,Regional,EMP_Max_15_Min_FF ,"Free Flow Decayed Access to Jobs, 15 Minute Max Travel",PROD,Done,wide,csv,Accessibility folder,\Access_Scores\FLSWM_FF_18_TTD_Un_15_30_60.csv
+FLSWM,Base,2018,M2,FL,SWTAZ,Regional,EMP_Max_30_Min_FF,"Free Flow Decayed Access to Jobs, 30 Minute Max Travel",PROD,Done,wide,csv,Accessibility folder,\Access_Scores\FLSWM_FF_18_TTD_Un_15_30_60.csv
+FLSWM,Base,2018,M2,FL,SWTAZ,Regional,EMP_Max_60_Min_FF,"Free Flow Decayed Access to Jobs, 60 Minute Max Travel",PROD,Done,wide,csv,Accessibility folder,\Access_Scores\FLSWM_FF_18_TTD_Un_15_30_60.csv
+FLSWM,Base,2018,M2,FL,SWTAZ,Regional,EMP_Unconstrained_CG,"Congested Decayed Access to Jobs, Unconstrained",PROD,Done,wide,csv,Accessibility folder,\Access_Scores\FLSWM_FF_18_TTD_Un_15_30_60.csv
+FLSWM,Base,2018,M2,FL,SWTAZ,Regional,EMP_Max_15_Min_CG,"Congested Decayed Access to Jobs, 15 Minute Max Travel",PROD,Done,wide,csv,Accessibility folder,\Access_Scores\FLSWM_FF_18_TTD_Un_15_30_60.csv
+FLSWM,Base,2018,M2,FL,SWTAZ,Regional,EMP_Max_30_Min_CG,"Congested Decayed Access to Jobs, 30 Minute Max Travel",PROD,Done,wide,csv,Accessibility folder,\Access_Scores\FLSWM_FF_18_TTD_Un_15_30_60.csv
+FLSWM,Base,2018,M2,FL,SWTAZ,Regional,EMP_Max_60_Min_CG     ,"Congested Decayed Access to Jobs, 60 Minute Max Travel",PROD,Done,wide,csv,Accessibility folder,\Access_Scores\FLSWM_FF_18_TTD_Un_15_30_60.csv
+FLSWM,Base,2018,M2,FL,SWTAZ,Regional,DU_Unconstrained_FF,"Free Flow Decayed Access to Dwelling Units, Unconstrained",PROD,Done,wide,csv,Accessibility folder,\Access_Scores\FLSWM_FF_18_TTD_Un_15_30_60.csv
+FLSWM,Base,2018,M2,FL,SWTAZ,Regional,DU_Max_15_Min_FF,"Free Flow Decayed Access to Dwelling Units, 15 Minute Max Travel",PROD,Done,wide,csv,Accessibility folder,\Access_Scores\FLSWM_FF_18_TTD_Un_15_30_60.csv
+FLSWM,Base,2018,M2,FL,SWTAZ,Regional,DU_Max_30_Min_FF,"Free Flow Decayed Access to Dwelling Units, 30 Minute Max Travel",PROD,Done,wide,csv,Accessibility folder,\Access_Scores\FLSWM_FF_18_TTD_Un_15_30_60.csv
+FLSWM,Base,2018,M2,FL,SWTAZ,Regional,DU_Max_60_Min_FF,"Free Flow Decayed Access to Dwelling Units, 60 Minute Max Travel",PROD,Done,wide,csv,Accessibility folder,\Access_Scores\FLSWM_FF_18_TTD_Un_15_30_60.csv
+FLSWM,Base,2018,M2,FL,SWTAZ,Regional,DU_Unconstrained_CG,"Congested Decayed Access to Dwelling Units, Unconstrained",PROD,Done,wide,csv,Accessibility folder,\Access_Scores\FLSWM_FF_18_TTD_Un_15_30_60.csv
+FLSWM,Base,2018,M2,FL,SWTAZ,Regional,DU_Max_15_Min_CG,"Congested Decayed Access to Dwelling Units, 15 Minute Max Travel",PROD,Done,wide,csv,Accessibility folder,\Access_Scores\FLSWM_FF_18_TTD_Un_15_30_60.csv
+FLSWM,Base,2018,M2,FL,SWTAZ,Regional,DU_Max_30_Min_CG,"Congested Decayed Access to Dwelling Units, 30 Minute Max Travel",PROD,Done,wide,csv,Accessibility folder,\Access_Scores\FLSWM_FF_18_TTD_Un_15_30_60.csv
+FLSWM,Base,2018,M2,FL,SWTAZ,Regional,DU_Max_60_Min_CG,"Congested Decayed Access to Dwelling Units, 60 Minute Max Travel",PROD,Done,wide,csv,Accessibility folder,\Access_Scores\FLSWM_FF_18_TTD_Un_15_30_60.csv
+FLSWM,Future,2045,M2,FL,SWTAZ,Regional,EMP_Unconstrained_FF,"Free Flow Decayed Access to Jobs, Unconstrained",PROD,Done,wide,csv,Accessibility folder,\Access_Scores\FLSWM_FF_45_TTD_Un_15_30_60.csv
+FLSWM,Future,2045,M2,FL,SWTAZ,Regional,EMP_Max_15_Min_FF ,"Free Flow Decayed Access to Jobs, 15 Minute Max Travel",PROD,Done,wide,csv,Accessibility folder,\Access_Scores\FLSWM_FF_45_TTD_Un_15_30_60.csv
+FLSWM,Future,2045,M2,FL,SWTAZ,Regional,EMP_Max_30_Min_FF,"Free Flow Decayed Access to Jobs, 30 Minute Max Travel",PROD,Done,wide,csv,Accessibility folder,\Access_Scores\FLSWM_FF_45_TTD_Un_15_30_60.csv
+FLSWM,Future,2045,M2,FL,SWTAZ,Regional,EMP_Max_60_Min_FF,"Free Flow Decayed Access to Jobs, 60 Minute Max Travel",PROD,Done,wide,csv,Accessibility folder,\Access_Scores\FLSWM_FF_45_TTD_Un_15_30_60.csv
+FLSWM,Future,2045,M2,FL,SWTAZ,Regional,EMP_Unconstrained_CG,"Congested Decayed Access to Jobs, Unconstrained",PROD,Done,wide,csv,Accessibility folder,\Access_Scores\FLSWM_FF_45_TTD_Un_15_30_60.csv
+FLSWM,Future,2045,M2,FL,SWTAZ,Regional,EMP_Max_15_Min_CG,"Congested Decayed Access to Jobs, 15 Minute Max Travel",PROD,Done,wide,csv,Accessibility folder,\Access_Scores\FLSWM_FF_45_TTD_Un_15_30_60.csv
+FLSWM,Future,2045,M2,FL,SWTAZ,Regional,EMP_Max_30_Min_CG,"Congested Decayed Access to Jobs, 30 Minute Max Travel",PROD,Done,wide,csv,Accessibility folder,\Access_Scores\FLSWM_FF_45_TTD_Un_15_30_60.csv
+FLSWM,Future,2045,M2,FL,SWTAZ,Regional,EMP_Max_60_Min_CG     ,"Congested Decayed Access to Jobs, 60 Minute Max Travel",PROD,Done,wide,csv,Accessibility folder,\Access_Scores\FLSWM_FF_45_TTD_Un_15_30_60.csv
+FLSWM,Future,2045,M2,FL,SWTAZ,Regional,DU_Unconstrained_FF,"Free Flow Decayed Access to Dwelling Units, Unconstrained",PROD,Done,wide,csv,Accessibility folder,\Access_Scores\FLSWM_FF_45_TTD_Un_15_30_60.csv
+FLSWM,Future,2045,M2,FL,SWTAZ,Regional,DU_Max_15_Min_FF,"Free Flow Decayed Access to Dwelling Units, 15 Minute Max Travel",PROD,Done,wide,csv,Accessibility folder,\Access_Scores\FLSWM_FF_45_TTD_Un_15_30_60.csv
+FLSWM,Future,2045,M2,FL,SWTAZ,Regional,DU_Max_30_Min_FF,"Free Flow Decayed Access to Dwelling Units, 30 Minute Max Travel",PROD,Done,wide,csv,Accessibility folder,\Access_Scores\FLSWM_FF_45_TTD_Un_15_30_60.csv
+FLSWM,Future,2045,M2,FL,SWTAZ,Regional,DU_Max_60_Min_FF,"Free Flow Decayed Access to Dwelling Units, 60 Minute Max Travel",PROD,Done,wide,csv,Accessibility folder,\Access_Scores\FLSWM_FF_45_TTD_Un_15_30_60.csv
+FLSWM,Future,2045,M2,FL,SWTAZ,Regional,DU_Unconstrained_CG,"Congested Decayed Access to Dwelling Units, Unconstrained",PROD,Done,wide,csv,Accessibility folder,\Access_Scores\FLSWM_FF_45_TTD_Un_15_30_60.csv
+FLSWM,Future,2045,M2,FL,SWTAZ,Regional,DU_Max_15_Min_CG,"Congested Decayed Access to Dwelling Units, 15 Minute Max Travel",PROD,Done,wide,csv,Accessibility folder,\Access_Scores\FLSWM_FF_45_TTD_Un_15_30_60.csv
+FLSWM,Future,2045,M2,FL,SWTAZ,Regional,DU_Max_30_Min_CG,"Congested Decayed Access to Dwelling Units, 30 Minute Max Travel",PROD,Done,wide,csv,Accessibility folder,\Access_Scores\FLSWM_FF_45_TTD_Un_15_30_60.csv
+FLSWM,Future,2045,M2,FL,SWTAZ,Regional,DU_Max_60_Min_CG,"Congested Decayed Access to Dwelling Units, 60 Minute Max Travel",PROD,Done,wide,csv,Accessibility folder,\Access_Scores\FLSWM_FF_45_TTD_Un_15_30_60.csv
+SERPM,Base,2015,NA,FL,SERPM_TAZ,NA,FF_time,Highway Freeflow times,RAW,Ready,long,csv,Accessibility folder,\skims\SERPM_2015_hwy_skim.csv
+SERPM,Base,2015,NA,FL,SERPM_TAZ,NA,CG_time,Highway Congested times,RAW,Ready,long,csv,Accessibility folder,\skims\SERPM_2015_hwy_skim.csv
+SERPM,Base,2015,NA,FL,SERPM_TAZ,NA,"Impedance=""FF_time""",Highway Freeflow times,INTERIM,Ready,OD,H5,Accessibility folder,\h5\SERPM_auto_only_15.h4
+SERPM,Base,2045,NA,FL,SERPM_TAZ,NA,FF_time,Highway Freeflow times,RAW,Ready,long,csv,Accessibility folder,\skims\SERPM_2045_hwy_skim.csv
+SERPM,Base,2045,NA,FL,SERPM_TAZ,NA,CG_time,Highway Congested times,RAW,Ready,long,csv,Accessibility folder,\skims\SERPM_2045_hwy_skim.csv
+SERPM,Base,2045,NA,FL,SERPM_TAZ,NA,"Impedance=""FF_time""",Highway Freeflow times,INTERIM,Ready,OD,H5,Accessibility folder,\h5\SERPM_auto_only_45.h4
+SERPM,Base,2045,NA,FL,SERPM_TAZ,NA,"Impedance=""CG_time""",Highway Congested times,INTERIM,Ready,OD,H5,Accessibility folder,\h5\SERPM_auto_only_45.h5
+SERPM,Base,2015,NA,FL,SERPM_TAZ,NA,"Impedance=""CG_time""",Highway Congested times,INTERIM,Ready,OD,H5,Accessibility folder,\h5\SERPM_auto_only_15.h5
+SERPM,Base,2015,M1,FL,SERPM_TAZ,MPO,EMP_Max_15_FF ,"Free Flow Access to Jobs, 15 minute travel time",PROD,Done,wide,csv,Accessibility folder,\Access_Scores\SERPM_FF_18_TTT_15_30_60.csv
+SERPM,Base,2015,M1,FL,SERPM_TAZ,MPO,EMP_Max_30_FF ,"Free Flow Access to Jobs, 30 minute travel time",PROD,Done,wide,csv,Accessibility folder,\Access_Scores\SERPM_FF_18_TTT_15_30_60.csv
+SERPM,Base,2015,M1,FL,SERPM_TAZ,MPO,EMP_Max_60_FF,"Free Flow Access to Jobs, 60 minute travel time",PROD,Done,wide,csv,Accessibility folder,\Access_Scores\SERPM_FF_18_TTT_15_30_60.csv
+SERPM,Base,2015,M1,FL,SERPM_TAZ,MPO,EMP_15_to_30_FF ,"Free Flow Access to Jobs, 15 to 30 minute travel time",PROD,Done,wide,csv,Accessibility folder,\Access_Scores\SERPM_FF_18_TTT_15_30_60.csv
+SERPM,Base,2015,M1,FL,SERPM_TAZ,MPO,EMP_30_to_60_FF,"Free Flow Access to Jobs, 30 to 60 minute travel time",PROD,Done,wide,csv,Accessibility folder,\Access_Scores\SERPM_FF_18_TTT_15_30_60.csv
+SERPM,Base,2015,M1,FL,SERPM_TAZ,MPO,EMP_Max_15_CG ,"Congested Access to Jobs, 15 minute travel time",PROD,Done,wide,csv,Accessibility folder,\Access_Scores\SERPM_FF_18_TTT_15_30_60.csv
+SERPM,Base,2015,M1,FL,SERPM_TAZ,MPO,EMP_Max_30_CG ,"Congested Access to Jobs, 30 minute travel time",PROD,Done,wide,csv,Accessibility folder,\Access_Scores\SERPM_FF_18_TTT_15_30_60.csv
+SERPM,Base,2015,M1,FL,SERPM_TAZ,MPO,EMP_Max_60_CG,"Congested Access to Jobs, 60 minute travel time",PROD,Done,wide,csv,Accessibility folder,\Access_Scores\SERPM_FF_18_TTT_15_30_60.csv
+SERPM,Base,2015,M1,FL,SERPM_TAZ,MPO,EMP_15_to_30_CG ,"Congested Access to Jobs, 15 to 30 minute travel time",PROD,Done,wide,csv,Accessibility folder,\Access_Scores\SERPM_FF_18_TTT_15_30_60.csv
+SERPM,Base,2015,M1,FL,SERPM_TAZ,MPO,EMP_30_to_60_CG,"Congested Access to Jobs, 30 to 60 minute travel time",PROD,Done,wide,csv,Accessibility folder,\Access_Scores\SERPM_FF_18_TTT_15_30_60.csv
+SERPM,Base,2015,M1,FL,SERPM_TAZ,MPO,DU_Max_15_FF ,"Free Flow Access to Dwelling Units, 15 minute travel time",PROD,Preparing,wide,csv,Accessibility folder,\Access_Scores\SERPM_FF_18_TTT_15_30_60.csv
+SERPM,Base,2015,M1,FL,SERPM_TAZ,MPO,DU_Max_30_FF ,"Free Flow Access to  Dwelling Units, 30 minute travel time",PROD,Preparing,wide,csv,Accessibility folder,\Access_Scores\SERPM_FF_18_TTT_15_30_60.csv
+SERPM,Base,2015,M1,FL,SERPM_TAZ,MPO,DU_Max_60_FF,"Free Flow Access to  Dwelling Units, 60 minute travel time",PROD,Preparing,wide,csv,Accessibility folder,\Access_Scores\SERPM_FF_18_TTT_15_30_60.csv
+SERPM,Base,2015,M1,FL,SERPM_TAZ,MPO,DU_15_to_30_FF ,"Free Flow Access to  Dwelling Units, 15 to 30 minute travel time",PROD,Preparing,wide,csv,Accessibility folder,\Access_Scores\SERPM_FF_18_TTT_15_30_60.csv
+SERPM,Base,2015,M1,FL,SERPM_TAZ,MPO,DU_30_to_60_FF                   ,"Free Flow Access to  Dwelling Units, 30 to 60 minute travel time",PROD,Preparing,wide,csv,Accessibility folder,\Access_Scores\SERPM_FF_18_TTT_15_30_60.csv
+SERPM,Base,2015,M1,FL,SERPM_TAZ,MPO,DU_Max_15_CG ,"Congested Access to  Dwelling Units, 15 minute travel time",PROD,Preparing,wide,csv,Accessibility folder,\Access_Scores\SERPM_FF_18_TTT_15_30_60.csv
+SERPM,Base,2015,M1,FL,SERPM_TAZ,MPO,DU_Max_30_CG ,"Congested Access to  Dwelling Units, 30 minute travel time",PROD,Preparing,wide,csv,Accessibility folder,\Access_Scores\SERPM_FF_18_TTT_15_30_60.csv
+SERPM,Base,2015,M1,FL,SERPM_TAZ,MPO,DU_Max_60_CG,"Congested Access to  Dwelling Units, 60 minute travel time",PROD,Preparing,wide,csv,Accessibility folder,\Access_Scores\SERPM_FF_18_TTT_15_30_60.csv
+SERPM,Base,2015,M1,FL,SERPM_TAZ,MPO,DU_15_to_30_CG ,"Congested Access to  Dwelling Units, 15 to 30 minute travel time",PROD,Preparing,wide,csv,Accessibility folder,\Access_Scores\SERPM_FF_18_TTT_15_30_60.csv
+SERPM,Base,2015,M1,FL,SERPM_TAZ,MPO,DU_30_to_60_CG,"Congested Access to  Dwelling Units, 30 to 60 minute travel time",PROD,Preparing,wide,csv,Accessibility folder,\Access_Scores\SERPM_FF_18_TTT_15_30_60.csv
+SERPM,Future,2045,M1,FL,SERPM_TAZ,MPO,EMP_Max_15_FF ,"Free Flow Access to Jobs, 15 minute travel time",PROD,Done,wide,csv,Accessibility folder,\Access_Scores\SERPM_FF_45_TTT_15_30_60.csv
+SERPM,Future,2045,M1,FL,SERPM_TAZ,MPO,EMP_Max_30_FF ,"Free Flow Access to Jobs, 30 minute travel time",PROD,Done,wide,csv,Accessibility folder,\Access_Scores\SERPM_FF_45_TTT_15_30_60.csv
+SERPM,Future,2045,M1,FL,SERPM_TAZ,MPO,EMP_Max_60_FF,"Free Flow Access to Jobs, 60 minute travel time",PROD,Done,wide,csv,Accessibility folder,\Access_Scores\SERPM_FF_45_TTT_15_30_60.csv
+SERPM,Future,2045,M1,FL,SERPM_TAZ,MPO,EMP_15_to_30_FF ,"Free Flow Access to Jobs, 15 to 30 minute travel time",PROD,Done,wide,csv,Accessibility folder,\Access_Scores\SERPM_FF_45_TTT_15_30_60.csv
+SERPM,Future,2045,M1,FL,SERPM_TAZ,MPO,EMP_30_to_60_FF,"Free Flow Access to Jobs, 30 to 60 minute travel time",PROD,Done,wide,csv,Accessibility folder,\Access_Scores\SERPM_FF_45_TTT_15_30_60.csv
+SERPM,Future,2045,M1,FL,SERPM_TAZ,MPO,EMP_Max_15_CG ,"Congested Access to Jobs, 15 minute travel time",PROD,Done,wide,csv,Accessibility folder,\Access_Scores\SERPM_FF_45_TTT_15_30_60.csv
+SERPM,Future,2045,M1,FL,SERPM_TAZ,MPO,EMP_Max_30_CG ,"Congested Access to Jobs, 30 minute travel time",PROD,Done,wide,csv,Accessibility folder,\Access_Scores\SERPM_FF_45_TTT_15_30_60.csv
+SERPM,Future,2045,M1,FL,SERPM_TAZ,MPO,EMP_Max_60_CG,"Congested Access to Jobs, 60 minute travel time",PROD,Done,wide,csv,Accessibility folder,\Access_Scores\SERPM_FF_45_TTT_15_30_60.csv
+SERPM,Future,2045,M1,FL,SERPM_TAZ,MPO,EMP_15_to_30_CG ,"Congested Access to Jobs, 15 to 30 minute travel time",PROD,Done,wide,csv,Accessibility folder,\Access_Scores\SERPM_FF_45_TTT_15_30_60.csv
+SERPM,Future,2045,M1,FL,SERPM_TAZ,MPO,EMP_30_to_60_CG,"Congested Access to Jobs, 30 to 60 minute travel time",PROD,Done,wide,csv,Accessibility folder,\Access_Scores\SERPM_FF_45_TTT_15_30_60.csv
+SERPM,Future,2045,M1,FL,SERPM_TAZ,MPO,DU_Max_15_FF ,"Free Flow Access to Dwelling Units, 15 minute travel time",PROD,Preparing,wide,csv,Accessibility folder,\Access_Scores\SERPM_FF_45_TTT_15_30_60.csv
+SERPM,Future,2045,M1,FL,SERPM_TAZ,MPO,DU_Max_30_FF ,"Free Flow Access to  Dwelling Units, 30 minute travel time",PROD,Preparing,wide,csv,Accessibility folder,\Access_Scores\SERPM_FF_45_TTT_15_30_60.csv
+SERPM,Future,2045,M1,FL,SERPM_TAZ,MPO,DU_Max_60_FF,"Free Flow Access to  Dwelling Units, 60 minute travel time",PROD,Preparing,wide,csv,Accessibility folder,\Access_Scores\SERPM_FF_45_TTT_15_30_60.csv
+SERPM,Future,2045,M1,FL,SERPM_TAZ,MPO,DU_15_to_30_FF ,"Free Flow Access to  Dwelling Units, 15 to 30 minute travel time",PROD,Preparing,wide,csv,Accessibility folder,\Access_Scores\SERPM_FF_45_TTT_15_30_60.csv
+SERPM,Future,2045,M1,FL,SERPM_TAZ,MPO,DU_30_to_60_FF                   ,"Free Flow Access to  Dwelling Units, 30 to 60 minute travel time",PROD,Preparing,wide,csv,Accessibility folder,\Access_Scores\SERPM_FF_45_TTT_15_30_60.csv
+SERPM,Future,2045,M1,FL,SERPM_TAZ,MPO,DU_Max_15_CG ,"Congested Access to  Dwelling Units, 15 minute travel time",PROD,Preparing,wide,csv,Accessibility folder,\Access_Scores\SERPM_FF_45_TTT_15_30_60.csv
+SERPM,Future,2045,M1,FL,SERPM_TAZ,MPO,DU_Max_30_CG ,"Congested Access to  Dwelling Units, 30 minute travel time",PROD,Preparing,wide,csv,Accessibility folder,\Access_Scores\SERPM_FF_45_TTT_15_30_60.csv
+SERPM,Future,2045,M1,FL,SERPM_TAZ,MPO,DU_Max_60_CG,"Congested Access to  Dwelling Units, 60 minute travel time",PROD,Preparing,wide,csv,Accessibility folder,\Access_Scores\SERPM_FF_45_TTT_15_30_60.csv
+SERPM,Future,2045,M1,FL,SERPM_TAZ,MPO,DU_15_to_30_CG ,"Congested Access to  Dwelling Units, 15 to 30 minute travel time",PROD,Preparing,wide,csv,Accessibility folder,\Access_Scores\SERPM_FF_45_TTT_15_30_60.csv
+SERPM,Future,2045,M1,FL,SERPM_TAZ,MPO,DU_30_to_60_CG,"Congested Access to  Dwelling Units, 30 to 60 minute travel time",PROD,Preparing,wide,csv,Accessibility folder,\Access_Scores\SERPM_FF_45_TTT_15_30_60.csv
+SERPM,Base,2015,M2,FL,SERPM_TAZ,MPO,EMP_Unconstrained_FF,"Free Flow Decayed Access to Jobs, Unconstrained",PROD,Done,wide,csv,Accessibility folder,\Access_Scores\SERPM_FF_18_TTD_Un_15_30_60.csv
+SERPM,Base,2015,M2,FL,SERPM_TAZ,MPO,EMP_Max_15_Min_FF ,"Free Flow Decayed Access to Jobs, 15 Minute Max Travel",PROD,Done,wide,csv,Accessibility folder,\Access_Scores\SERPM_FF_18_TTD_Un_15_30_60.csv
+SERPM,Base,2015,M2,FL,SERPM_TAZ,MPO,EMP_Max_30_Min_FF,"Free Flow Decayed Access to Jobs, 30 Minute Max Travel",PROD,Done,wide,csv,Accessibility folder,\Access_Scores\SERPM_FF_18_TTD_Un_15_30_60.csv
+SERPM,Base,2015,M2,FL,SERPM_TAZ,MPO,EMP_Max_60_Min_FF,"Free Flow Decayed Access to Jobs, 60 Minute Max Travel",PROD,Done,wide,csv,Accessibility folder,\Access_Scores\SERPM_FF_18_TTD_Un_15_30_60.csv
+SERPM,Base,2015,M2,FL,SERPM_TAZ,MPO,EMP_Unconstrained_CG,"Congested Decayed Access to Jobs, Unconstrained",PROD,Done,wide,csv,Accessibility folder,\Access_Scores\SERPM_FF_18_TTD_Un_15_30_60.csv
+SERPM,Base,2015,M2,FL,SERPM_TAZ,MPO,EMP_Max_15_Min_CG,"Congested Decayed Access to Jobs, 15 Minute Max Travel",PROD,Done,wide,csv,Accessibility folder,\Access_Scores\SERPM_FF_18_TTD_Un_15_30_60.csv
+SERPM,Base,2015,M2,FL,SERPM_TAZ,MPO,EMP_Max_30_Min_CG,"Congested Decayed Access to Jobs, 30 Minute Max Travel",PROD,Done,wide,csv,Accessibility folder,\Access_Scores\SERPM_FF_18_TTD_Un_15_30_60.csv
+SERPM,Base,2015,M2,FL,SERPM_TAZ,MPO,EMP_Max_60_Min_CG     ,"Congested Decayed Access to Jobs, 60 Minute Max Travel",PROD,Done,wide,csv,Accessibility folder,\Access_Scores\SERPM_FF_18_TTD_Un_15_30_60.csv
+SERPM,Base,2015,M2,FL,SERPM_TAZ,MPO,DU_Unconstrained_FF,"Free Flow Decayed Access to Dwelling Units, Unconstrained",PROD,Preparing,wide,csv,Accessibility folder,\Access_Scores\SERPM_FF_18_TTD_Un_15_30_60.csv
+SERPM,Base,2015,M2,FL,SERPM_TAZ,MPO,DU_Max_15_Min_FF,"Free Flow Decayed Access to Dwelling Units, 15 Minute Max Travel",PROD,Preparing,wide,csv,Accessibility folder,\Access_Scores\SERPM_FF_18_TTD_Un_15_30_60.csv
+SERPM,Base,2015,M2,FL,SERPM_TAZ,MPO,DU_Max_30_Min_FF,"Free Flow Decayed Access to Dwelling Units, 30 Minute Max Travel",PROD,Preparing,wide,csv,Accessibility folder,\Access_Scores\SERPM_FF_18_TTD_Un_15_30_60.csv
+SERPM,Base,2015,M2,FL,SERPM_TAZ,MPO,DU_Max_60_Min_FF,"Free Flow Decayed Access to Dwelling Units, 60 Minute Max Travel",PROD,Preparing,wide,csv,Accessibility folder,\Access_Scores\SERPM_FF_18_TTD_Un_15_30_60.csv
+SERPM,Base,2015,M2,FL,SERPM_TAZ,MPO,DU_Unconstrained_CG,"Congested Decayed Access to Dwelling Units, Unconstrained",PROD,Preparing,wide,csv,Accessibility folder,\Access_Scores\SERPM_FF_18_TTD_Un_15_30_60.csv
+SERPM,Base,2015,M2,FL,SERPM_TAZ,MPO,DU_Max_15_Min_CG,"Congested Decayed Access to Dwelling Units, 15 Minute Max Travel",PROD,Preparing,wide,csv,Accessibility folder,\Access_Scores\SERPM_FF_18_TTD_Un_15_30_60.csv
+SERPM,Base,2015,M2,FL,SERPM_TAZ,MPO,DU_Max_30_Min_CG,"Congested Decayed Access to Dwelling Units, 30 Minute Max Travel",PROD,Preparing,wide,csv,Accessibility folder,\Access_Scores\SERPM_FF_18_TTD_Un_15_30_60.csv
+SERPM,Base,2015,M2,FL,SERPM_TAZ,MPO,DU_Max_60_Min_CG,"Congested Decayed Access to Dwelling Units, 60 Minute Max Travel",PROD,Preparing,wide,csv,Accessibility folder,\Access_Scores\SERPM_FF_18_TTD_Un_15_30_60.csv
+SERPM,Future,2045,M2,FL,SERPM_TAZ,MPO,EMP_Unconstrained_FF,"Free Flow Decayed Access to Jobs, Unconstrained",PROD,Done,wide,csv,Accessibility folder,\Access_Scores\SERPM_FF_45_TTD_Un_15_30_60.csv
+SERPM,Future,2045,M2,FL,SERPM_TAZ,MPO,EMP_Max_15_Min_FF ,"Free Flow Decayed Access to Jobs, 15 Minute Max Travel",PROD,Done,wide,csv,Accessibility folder,\Access_Scores\SERPM_FF_45_TTD_Un_15_30_60.csv
+SERPM,Future,2045,M2,FL,SERPM_TAZ,MPO,EMP_Max_30_Min_FF,"Free Flow Decayed Access to Jobs, 30 Minute Max Travel",PROD,Done,wide,csv,Accessibility folder,\Access_Scores\SERPM_FF_45_TTD_Un_15_30_60.csv
+SERPM,Future,2045,M2,FL,SERPM_TAZ,MPO,EMP_Max_60_Min_FF,"Free Flow Decayed Access to Jobs, 60 Minute Max Travel",PROD,Done,wide,csv,Accessibility folder,\Access_Scores\SERPM_FF_45_TTD_Un_15_30_60.csv
+SERPM,Future,2045,M2,FL,SERPM_TAZ,MPO,EMP_Unconstrained_CG,"Congested Decayed Access to Jobs, Unconstrained",PROD,Done,wide,csv,Accessibility folder,\Access_Scores\SERPM_FF_45_TTD_Un_15_30_60.csv
+SERPM,Future,2045,M2,FL,SERPM_TAZ,MPO,EMP_Max_15_Min_CG,"Congested Decayed Access to Jobs, 15 Minute Max Travel",PROD,Done,wide,csv,Accessibility folder,\Access_Scores\SERPM_FF_45_TTD_Un_15_30_60.csv
+SERPM,Future,2045,M2,FL,SERPM_TAZ,MPO,EMP_Max_30_Min_CG,"Congested Decayed Access to Jobs, 30 Minute Max Travel",PROD,Done,wide,csv,Accessibility folder,\Access_Scores\SERPM_FF_45_TTD_Un_15_30_60.csv
+SERPM,Future,2045,M2,FL,SERPM_TAZ,MPO,EMP_Max_60_Min_CG     ,"Congested Decayed Access to Jobs, 60 Minute Max Travel",PROD,Done,wide,csv,Accessibility folder,\Access_Scores\SERPM_FF_45_TTD_Un_15_30_60.csv
+SERPM,Future,2045,M2,FL,SERPM_TAZ,MPO,DU_Unconstrained_FF,"Free Flow Decayed Access to Dwelling Units, Unconstrained",PROD,Preparing,wide,csv,Accessibility folder,\Access_Scores\SERPM_FF_45_TTD_Un_15_30_60.csv
+SERPM,Future,2045,M2,FL,SERPM_TAZ,MPO,DU_Max_15_Min_FF,"Free Flow Decayed Access to Dwelling Units, 15 Minute Max Travel",PROD,Preparing,wide,csv,Accessibility folder,\Access_Scores\SERPM_FF_45_TTD_Un_15_30_60.csv
+SERPM,Future,2045,M2,FL,SERPM_TAZ,MPO,DU_Max_30_Min_FF,"Free Flow Decayed Access to Dwelling Units, 30 Minute Max Travel",PROD,Preparing,wide,csv,Accessibility folder,\Access_Scores\SERPM_FF_45_TTD_Un_15_30_60.csv
+SERPM,Future,2045,M2,FL,SERPM_TAZ,MPO,DU_Max_60_Min_FF,"Free Flow Decayed Access to Dwelling Units, 60 Minute Max Travel",PROD,Preparing,wide,csv,Accessibility folder,\Access_Scores\SERPM_FF_45_TTD_Un_15_30_60.csv
+SERPM,Future,2045,M2,FL,SERPM_TAZ,MPO,DU_Unconstrained_CG,"Congested Decayed Access to Dwelling Units, Unconstrained",PROD,Preparing,wide,csv,Accessibility folder,\Access_Scores\SERPM_FF_45_TTD_Un_15_30_60.csv
+SERPM,Future,2045,M2,FL,SERPM_TAZ,MPO,DU_Max_15_Min_CG,"Congested Decayed Access to Dwelling Units, 15 Minute Max Travel",PROD,Preparing,wide,csv,Accessibility folder,\Access_Scores\SERPM_FF_45_TTD_Un_15_30_60.csv
+SERPM,Future,2045,M2,FL,SERPM_TAZ,MPO,DU_Max_30_Min_CG,"Congested Decayed Access to Dwelling Units, 30 Minute Max Travel",PROD,Preparing,wide,csv,Accessibility folder,\Access_Scores\SERPM_FF_45_TTD_Un_15_30_60.csv
+SERPM,Future,2045,M2,FL,SERPM_TAZ,MPO,DU_Max_60_Min_CG,"Congested Decayed Access to Dwelling Units, 60 Minute Max Travel",PROD,Preparing,wide,csv,Accessibility folder,\Access_Scores\SERPM_FF_45_TTD_Un_15_30_60.csv
