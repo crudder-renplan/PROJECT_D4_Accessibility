@@ -36,46 +36,20 @@ SET ENV_NAME=d4_accessibility
 :: Jump to command
 GOTO %1
 
-:: Perform data preprocessing steps contained in the make_data.py script.
-:data
-    ENDLOCAL & (
-        CALL activate "%ENV_NAME%"
-        CALL python src/make_data.py
-        ECHO ^>^>^> Data processed.
-    )
-    EXIT /B
-
-:: Perform data download steps contained in the get_data.py script.
-:add_data
-    ENDLOCAL & (
-        CALL activate "%ENV_NAME%"
-        CALL python src/get_data.py
-        ECHO ^>^>^> Data pulled to ../data/raw
-    )
-    EXIT /B
-
-:: Make documentation using Sphinx!
-:docs
-    ENDLOCAL & (
-        CALL docsrc/make.bat github
-    )
-	EXIT /B
 
 :: Build the local environment from the environment file
 :env
     ENDLOCAL & (
-        :: Ensure mamba installed in root env
-        CALL conda install mamba -c conda-forge -y
-
+        :: Install MAMBA for faster solves
+        CALL conda install -c conda-forge mamba yaml -y
+        :: update environment with package dependencies
+        CALL python check_package_deps.py
         :: Create new environment from environment file
-        CALL mamba env create -f environment.yml
-
+        CALL mamba env create -f build_environment.yml
+        :: Activate the environment so you can get to work
+        CALL activate "%ENV_NAME%"
         :: Install the local package in development (experimental) mode
         CALL python -m pip install -e .
-
-        :: Activate the enironment so you can get to work
-        CALL activate "%ENV_NAME%"
-
     )
     EXIT /B
 
@@ -87,46 +61,8 @@ GOTO %1
 
 :: Remove the environment
 :env_remove
-	ENDLOCAL & (
-		CALL conda deactivate
-		CALL conda env remove --name "%ENV_NAME%" -y
-	)
-	EXIT /B
-
-
-:: Make the package for uploading
-:build
     ENDLOCAL & (
-
-        :: Build the pip package
-        CALL python setup.py sdist
-
-        :: Build conda package
-        CALL conda build ./conda-recipe --output-folder ./conda-recipe/conda-build
-
+        CALL conda deactivate
+        CALL conda env remove --name "%ENV_NAME%" -y
     )
     EXIT /B
-
-:build_upload
-    ENDLOCAL & (
-
-        :: Build the pip package
-        CALL python setup.py sdist bdist_wheel
-        CALL twine upload ./dist/*
-
-        :: Build conda package
-        CALL conda build ./conda-recipe --output-folder ./conda-recipe/conda-build
-        CALL anaconda upload ./conda-recipe/conda-build/win-64/test_esri_project*.tar.bz2
-
-    )
-    EXIT /B
-
-:: Run all tests in module
-:test
-	ENDLOCAL & (
-		activate "%ENV_NAME%"
-		pytest
-	)
-	EXIT /B
-
-EXIT /B

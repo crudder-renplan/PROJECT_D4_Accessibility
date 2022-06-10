@@ -2,8 +2,82 @@
 
 D4 Accessibility Project
 
-## Getting Started
+## Access Summarization to Zip Code Geometries
 
+Summarization to ZCTAs
+Last edited: Yesterday
+Metrics to be summarized from TAZ level to ZCTA
+
+#### Abreviation legend
+    TTT = 
+    TTD = 
+    FF = Free Flowing traffic
+    CG = Congested traffic
+    EMP = 
+    DU = Dwelling Units
+
+#### SERPM jobs/housing balance
+    zones: TAZs/SERPM8TAZ.shp [TAZ_REG]
+        decayed:
+            table: access_scores/SERPM_FF_{15 or 45}_TTD_Un_15_30_60.csv [index]
+                fields: EMP_Max_15_Min_{CG or FF} /  DU_Max_15_Min_{CG or FF}
+                fields: EMP_Max_30_Min_{CG or FF} /  DU_Max_30_Min_{CG or FF}
+                fields: EMP_Max_45_Min_{CG or FF} /  DU_Max_45_Min_{CG or FF}
+ 
+#### FLSWM jobs/housing balance
+    zones: TAZs/2015_TAZs_Final.shp [NEWTAZ]
+        decayed:
+            table: access_scores/FLSWM_FF_{18 or 45}_TTD_Un_15_30_60.csv [index]
+                fields: EMP_Max_15_Min_{CG or FF} /  DU_Max_15_Min_{CG or FF}
+                fields: EMP_Max_30_Min_{CG or FF} /  DU_Max_30_Min_{CG or FF}
+                fields: EMP_Max_45_Min_{CG or FF} /  DU_Max_45_Min_{CG or FF}
+
+#### SERPM Cumulative opportunities (free flow and congested)
+    zones: TAZs/SERPM8TAZ.shp [TAZ_REG]
+        undecayed:
+            table: access_scores/SERPM_FF_{15 or 45}_TTT_15_30_60.csv [index]
+                field: EMP_Max_15{CG or FF}
+                field: EMP_Max_30_{CG or FF}
+                field: EMP_Max_60_{CG or FF}
+        decayed:
+            table: access_scores/SERPM_FF_{15 or 45}_TTD_Un_15_30_60.csv [index]
+                field: EMP_Max_15_Min_{CG or FF}
+                field: EMP_Max_30_Min_{CG or FF}
+                field: EMP_Max_60_Min_{CG or FF}
+
+#### FLSWM Cumulative opportunities (free flow and congested)
+    zones: TAZs/2015_TAZs_Final.shp [NEWTAZ]        undecayed:
+            table: access_scores/FLSWM_FF_{18 or 45}_TTT_15_30_60.csv [index]
+                field: EMP_Max_15_{CG or FF}
+                field: EMP_Max_30_{CG or FF}
+                field: EMP_Max_60_{CG or FF}
+        decayed:
+            table: access_scores/FLSWM_FF_{18 or 45}_TTD_Un_15_30_60.csv [index]
+                field: Max_15_Min_{CG or FF}
+                field: Max_30_Min_{CG or FF}
+                field: Max_60_Min_{CG or FF}
+
+#### SERPM MSP
+    zones: TAZs/SERPM8TAZ.shp [TAZ_REG] 
+    msp table: AccessScores/SERPM_MSP_{CG or FF}_15.csv [TAZ]
+    trip totals: trip_tables/SERPM_Trips_{CG or FF}_15.csv [TAZ]
+        fields: {From/To}_MSP / {From/To}_Trips
+
+#### FLSWM MSP
+    zones: TAZs/2015_TAZs_Final.shp [NEWTAZ]    msp table: AccessScores/SERPM_MSP_{CG or FF}_15.csv [TAZ]
+    trip totals:: trip_tables/FLSWM_Trips_{CG or FF}_18.csv [TAZ]
+        fields: {From/To}_MSP / {From/To}_Trips
+ 
+#### Proximity to transit
+    best available transit service frequency
+        zones: gtfs/gtfs_feeds/summarized_results/block_results_v4
+            field: m1_weekday
+    wtd average departure frequency
+        zones: gtfs/gtfs_feeds/summarized_results/block_results_v4
+            field: m5
+
+
+## Getting Started
 1 - Clone this repo.
 
 2 - Create an environment with the requirements.

@@ -5,7 +5,6 @@ channels:
   - conda-forge
 
 dependencies:
-  - esri::arcgis
   - cookiecutter
   - jupyterlab
   - nodejs
@@ -22,9 +21,9 @@ dependencies:
   - tqdm
   - osmnx
   - openpyxl
+  - pyshp
   - pip:
     - boto3
     - -e ../../packages/emma
-    - -e ../../packages/rpio
     - -e ../../packages/algi
     - -e ../../packages/rputils
